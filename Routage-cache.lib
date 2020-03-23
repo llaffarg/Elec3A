@@ -41,44 +41,6 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Jack_Mono
-#
-DEF Connector_Jack_Mono U 0 40 Y Y 1 F N
-F0 "U" 0 250 50 H V C CNN
-F1 "Connector_Jack_Mono" 0 150 50 H V C CNN
-F2 "" -46 24 50 H I C CNN
-F3 "" -46 24 50 H I C CNN
-DRAW
-S -100 -150 -150 -50 1 1 10 F
-S 100 100 -100 -150 1 1 10 f
-P 2 0 1 0 100 -50 -24 -50 N
-P 3 0 1 0 8 -22 24 -22 8 -44 N
-P 4 0 1 0 -70 -50 -48 -28 -24 -50 -32 -44 N
-P 4 0 1 0 8 -20 8 50 102 50 100 48 N
-P 7 0 1 0 0 -26 16 -26 2 -30 14 -32 4 -36 8 -40 8 -30 N
-P 3 1 1 0 8 -22 -8 -22 8 -44 N
-X ~ G 0 -250 100 U 50 50 1 1 P
-X ~ T 200 -50 100 L 50 50 1 1 P
-X ~ TN 200 50 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_BZX55C5V1
-#
-DEF Device_BZX55C5V1 Dz 0 40 Y N 1 F N
-F0 "Dz" -20 118 50 H V C CNN
-F1 "Device_BZX55C5V1" 28 -114 50 H V C CNN
-F2 "" -14 -20 50 H I C CNN
-F3 "" -14 -20 50 H I C CNN
-DRAW
-P 2 1 1 0 50 0 -50 0 N
-P 3 1 1 8 -50 -50 -50 50 -30 50 N
-P 4 1 1 8 50 -50 50 50 -50 0 50 -50 F
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_C
 #
 DEF Device_C C 0 10 N Y 1 F N
@@ -285,11 +247,49 @@ P 13 0 1 10 -13 50 -13 150 12 150 12 50 37 50 37 150 62 150 62 50 87 50 87 150 1
 ENDDRAW
 ENDDEF
 #
-# Relay_Relay_1CT
+# Routage-rescue_BZX55C5V1-Device
 #
-DEF Relay_Relay_1CT U 0 40 Y Y 1 F N
+DEF Routage-rescue_BZX55C5V1-Device Dz 0 40 Y N 1 F N
+F0 "Dz" -20 118 50 H V C CNN
+F1 "Routage-rescue_BZX55C5V1-Device" 28 -114 50 H V C CNN
+F2 "" -14 -20 50 H I C CNN
+F3 "" -14 -20 50 H I C CNN
+DRAW
+P 2 1 1 0 50 0 -50 0 N
+P 3 1 1 8 -50 -50 -50 50 -30 50 N
+P 4 1 1 8 50 -50 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Routage-rescue_Jack_Mono-Connector
+#
+DEF Routage-rescue_Jack_Mono-Connector U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Routage-rescue_Jack_Mono-Connector" 0 150 50 H V C CNN
+F2 "" -46 24 50 H I C CNN
+F3 "" -46 24 50 H I C CNN
+DRAW
+S -100 -150 -150 -50 1 1 10 F
+S 100 100 -100 -150 1 1 10 f
+P 2 0 1 0 100 -50 -24 -50 N
+P 3 0 1 0 8 -22 24 -22 8 -44 N
+P 4 0 1 0 -70 -50 -48 -28 -24 -50 -32 -44 N
+P 4 0 1 0 8 -20 8 50 102 50 100 48 N
+P 7 0 1 0 0 -26 16 -26 2 -30 14 -32 4 -36 8 -40 8 -30 N
+P 3 1 1 0 8 -22 -8 -22 8 -44 N
+X ~ G 0 -250 100 U 50 50 1 1 P
+X ~ T 200 -50 100 L 50 50 1 1 P
+X ~ TN 200 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Routage-rescue_Relay_1CT-Relay
+#
+DEF Routage-rescue_Relay_1CT-Relay U 0 40 Y Y 1 F N
 F0 "U" 0 550 50 H V C CNN
-F1 "Relay_Relay_1CT" 0 400 50 H V C CNN
+F1 "Routage-rescue_Relay_1CT-Relay" 0 400 50 H V C CNN
 F2 "" 0 50 50 V I C CNN
 F3 "" 0 50 50 V I C CNN
 DRAW

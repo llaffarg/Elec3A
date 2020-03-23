@@ -1080,7 +1080,7 @@ Wire Wire Line
 	2400 900  2900 900 
 Connection ~ 2900 900 
 $Comp
-L Relay:Relay_1CT U1
+L Routage-rescue:Relay_1CT-Relay U1
 U 1 1 5E9227D3
 P 9400 3250
 F 0 "U1" H 9400 3767 50  0000 C CNN
@@ -1116,7 +1116,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 1550 2400 1900
 $Comp
-L Device:BZX55C5V1 Dz1
+L Routage-rescue:BZX55C5V1-Device Dz1
 U 1 1 5E91152E
 P 2400 1400
 F 0 "Dz1" V 2350 1050 50  0000 L CNN
@@ -1144,7 +1144,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3400 1900 3400
 $Comp
-L Connector:Jack_Mono U2
+L Routage-rescue:Jack_Mono-Connector U2
 U 1 1 5E8BA8E3
 P 850 3350
 F 0 "U2" H 882 3625 50  0000 C CNN
@@ -1243,4 +1243,6 @@ Text Label 1450 7300 0    50   ~ 0
 -12_Alim
 Text Label 2050 6650 0    50   ~ 0
 GND_Alim
+Text Label 9050 3750 0    50   ~ 0
+Relay_Q13
 $EndSCHEMATC
