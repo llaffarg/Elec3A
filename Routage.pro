@@ -1,4 +1,4 @@
-update=11/04/2020 15:16:07
+update=11/04/2020 18:44:58
 version=1
 last_client=pcbnew
 [general]
@@ -39,6 +39,10 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.4
+TrackWidth2=0.4
+TrackWidth3=0.6
+TrackWidth4=1
+TrackWidth5=2.1
 ViaDiameter1=1.9
 ViaDrill1=0.6
 dPairWidth1=0.4
@@ -239,6 +243,39 @@ Enabled=0
 Name=Default
 Clearance=0.3
 TrackWidth=0.4
+ViaDiameter=1.9
+ViaDrill=0.6
+uViaDiameter=1
+uViaDrill=0.6
+dPairWidth=0.4
+dPairGap=0.3
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=alim diff
+Clearance=0.3
+TrackWidth=1
+ViaDiameter=1.9
+ViaDrill=0.6
+uViaDiameter=1
+uViaDrill=0.6
+dPairWidth=0.4
+dPairGap=0.3
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=alim push pull
+Clearance=0.3
+TrackWidth=2.1
+ViaDiameter=1.9
+ViaDrill=0.6
+uViaDiameter=1
+uViaDrill=0.6
+dPairWidth=0.4
+dPairGap=0.3
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=etage diff ec
+Clearance=0.3
+TrackWidth=0.6
 ViaDiameter=1.9
 ViaDrill=0.6
 uViaDiameter=1
