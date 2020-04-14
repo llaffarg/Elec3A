@@ -1040,13 +1040,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5E82A477
-P 10650 3000
-F 0 "J2" H 10730 2992 50  0000 L CNN
-F 1 "Conn_01x02" H 10730 2901 50  0000 L CNN
-F 2 "CmpAmpliAudio:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 10650 3000 50  0001 C CNN
-F 3 "~" H 10650 3000 50  0001 C CNN
-	1    10650 3000
-	1    0    0    -1  
+P 10650 3100
+F 0 "J2" H 10730 3092 50  0000 L CNN
+F 1 "Conn_01x02" H 10730 3001 50  0000 L CNN
+F 2 "CmpAmpliAudio:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 10650 3100 50  0001 C CNN
+F 3 "~" H 10650 3100 50  0001 C CNN
+	1    10650 3100
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	10450 3100 10350 3100
