@@ -1,4 +1,4 @@
-16963255205790461
+16964867419138471
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6488,6 +6488,13 @@ Connector Audio Switronic ST-005-G
 0
 4
 3
+Connector_Audio
+Jack_35RAPC2AV
+
+
+0
+0
+0
 Connector_Audio
 MiniXLR-5_Switchcraft_TRAPC_Horizontal
 http://www.switchcraft.com/ProductSummary.aspx?Parent=620 http://www.switchcraft.com/Drawings/TRAPC_X-TRASM_X_SERIES_CD.PDF

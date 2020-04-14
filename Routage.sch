@@ -1245,4 +1245,14 @@ Text Label 2050 6650 0    50   ~ 0
 GND_Alim
 Text Label 9050 3750 0    50   ~ 0
 Relay_Q13
+Text Label 1900 4100 0    50   ~ 0
+R1_GND
+Text Label 3400 3700 0    50   ~ 0
+Q2_R3
+Text Label 3850 3400 0    50   ~ 0
+Q2_R14_R15
+Text Label 4400 3000 0    50   ~ 0
+RV2_GND
+Text Label 5100 2650 0    50   ~ 0
+Q8_RV2
 $EndSCHEMATC
